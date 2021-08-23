@@ -12,7 +12,7 @@ public class SpringAzureWebdemoApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "Sara quieres ser mi novia?";
+		return "Desplegando demo en azure";
 	}
 	
 	public static void main(String[] args) {
